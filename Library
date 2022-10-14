@@ -1,0 +1,848 @@
+local weight = {}
+
+function weight.new()
+	local GUI = Instance.new("ScreenGui")
+	
+	local GUI = Instance.new("ScreenGui")
+	local MainGUI = Instance.new("ImageLabel")
+	local UICorner = Instance.new("UICorner")
+	local LoadingCoresFrame = Instance.new("Frame")
+	local Logo = Instance.new("TextLabel")
+	local Loading = Instance.new("TextLabel")
+	local Version = Instance.new("TextLabel")
+	local Close = Instance.new("TextButton")
+	local Minimize = Instance.new("TextButton")
+	local Logo_2 = Instance.new("TextLabel")
+	local Line = Instance.new("TextLabel")
+	local LoginFrame = Instance.new("Frame")
+	local Logo_3 = Instance.new("TextLabel")
+	local SaveKeyNote = Instance.new("TextLabel")
+	local Version_2 = Instance.new("TextLabel")
+	local Line_2 = Instance.new("TextLabel")
+	local Close_2 = Instance.new("TextButton")
+	local Minimize_2 = Instance.new("TextButton")
+	local Key = Instance.new("TextBox")
+	local TextLabel = Instance.new("TextLabel")
+	local SaveKeyButton = Instance.new("TextButton")
+	local UICorner_2 = Instance.new("UICorner")
+	local Login = Instance.new("TextButton")
+	local UICorner_3 = Instance.new("UICorner")
+	local LoadingModulesFrame = Instance.new("Frame")
+	local BigLogo = Instance.new("TextLabel")
+	local Version_3 = Instance.new("TextLabel")
+	local Line_3 = Instance.new("TextLabel")
+	local Minimize_3 = Instance.new("TextButton")
+	local Close_3 = Instance.new("TextButton")
+	local Logo_4 = Instance.new("TextLabel")
+	local LoadingAnimation = Instance.new("Frame")
+	local LoadinCircle = Instance.new("TextLabel")
+	local UICorner_4 = Instance.new("UICorner")
+	local LoadinCircle_2 = Instance.new("TextLabel")
+	local UICorner_5 = Instance.new("UICorner")
+	local LoadinCircle_3 = Instance.new("TextLabel")
+	local UICorner_6 = Instance.new("UICorner")
+	local LoadinCircle_4 = Instance.new("TextLabel")
+	local UICorner_7 = Instance.new("UICorner")
+	local LoadinCircle_5 = Instance.new("TextLabel")
+	local UICorner_8 = Instance.new("UICorner")
+	local LoadinCircle_6 = Instance.new("TextLabel")
+	local UICorner_9 = Instance.new("UICorner")
+	local LoadinCircle_7 = Instance.new("TextLabel")
+	local UICorner_10 = Instance.new("UICorner")
+	local LoadinCircle_8 = Instance.new("TextLabel")
+	local UICorner_11 = Instance.new("UICorner")
+	local LoadinCircle_9 = Instance.new("TextLabel")
+	local UICorner_12 = Instance.new("UICorner")
+	local UIListLayout = Instance.new("UIListLayout")
+	local MainFrame = Instance.new("Frame")
+	local Version_4 = Instance.new("TextLabel")
+	local Close_4 = Instance.new("TextButton")
+	local Minimize_4 = Instance.new("TextButton")
+	local Logo_5 = Instance.new("TextLabel")
+	local Line_4 = Instance.new("TextLabel")
+	local Main = Instance.new("Frame")
+	local Tabs = Instance.new("ScrollingFrame")
+	local UIListLayout_2 = Instance.new("UIListLayout")
+	local Modules = Instance.new("ScrollingFrame")
+	local UIListLayout_3 = Instance.new("UIListLayout")
+	
+	--Properties:
+	
+	GUI.Name = "GUI"
+	GUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	GUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	
+	MainGUI.Name = "MainGUI"
+	MainGUI.Parent = GUI
+	MainGUI.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+	MainGUI.Position = UDim2.new(0.101047441, 0, 0.155797094, 0)
+	MainGUI.Size = UDim2.new(0, 569, 0, 299)
+	MainGUI.Image = "rbxassetid://2957790421"
+	
+	UICorner.Parent = MainGUI
+	
+	LoadingCoresFrame.Name = "LoadingCoresFrame"
+	LoadingCoresFrame.Parent = MainGUI
+	LoadingCoresFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	LoadingCoresFrame.BackgroundTransparency = 1.000
+	LoadingCoresFrame.Size = UDim2.new(0, 569, 0, 299)
+	
+	Logo.Name = "Logo"
+	Logo.Parent = LoadingCoresFrame
+	Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Logo.BackgroundTransparency = 1.000
+	Logo.Position = UDim2.new(0.323374331, 0, 0.391304314, 0)
+	Logo.Size = UDim2.new(0, 200, 0, 50)
+	Logo.Font = Enum.Font.LuckiestGuy
+	Logo.LineHeight = 0.770
+	Logo.Text = "WEIGHT"
+	Logo.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Logo.TextScaled = true
+	Logo.TextSize = 14.000
+	Logo.TextWrapped = true
+	
+	Loading.Name = "Loading"
+	Loading.Parent = LoadingCoresFrame
+	Loading.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Loading.BackgroundTransparency = 1.000
+	Loading.Position = UDim2.new(0.193321615, 0, 0.558528423, 0)
+	Loading.Size = UDim2.new(0, 348, 0, 15)
+	Loading.Font = Enum.Font.Cartoon
+	Loading.LineHeight = 0.770
+	Loading.Text = "Loading core modules..."
+	Loading.TextColor3 = Color3.fromRGB(205, 205, 205)
+	Loading.TextScaled = true
+	Loading.TextSize = 14.000
+	Loading.TextWrapped = true
+	
+	Version.Name = "Version"
+	Version.Parent = LoadingCoresFrame
+	Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Version.BackgroundTransparency = 1.000
+	Version.Position = UDim2.new(0.388400704, 0, 0.949832797, 0)
+	Version.Size = UDim2.new(0, 337, 0, 15)
+	Version.Font = Enum.Font.Cartoon
+	Version.Text = "BETA-BUILD V3"
+	Version.TextColor3 = Color3.fromRGB(205, 205, 205)
+	Version.TextScaled = true
+	Version.TextSize = 14.000
+	Version.TextWrapped = true
+	Version.TextXAlignment = Enum.TextXAlignment.Right
+	
+	Close.Name = "Close"
+	Close.Parent = LoadingCoresFrame
+	Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Close.BackgroundTransparency = 1.000
+	Close.Position = UDim2.new(0.944000006, 0, 0.0199999996, 0)
+	Close.Size = UDim2.new(0, 26, 0, 26)
+	Close.Font = Enum.Font.Cartoon
+	Close.Text = "X"
+	Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Close.TextScaled = true
+	Close.TextSize = 14.000
+	Close.TextWrapped = true
+	
+	Minimize.Name = "Minimize"
+	Minimize.Parent = LoadingCoresFrame
+	Minimize.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Minimize.BackgroundTransparency = 1.000
+	Minimize.Position = UDim2.new(0.879999995, 0, 0.0199999996, 0)
+	Minimize.Size = UDim2.new(0, 36, 0, 19)
+	Minimize.Font = Enum.Font.Cartoon
+	Minimize.Text = "_"
+	Minimize.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Minimize.TextScaled = true
+	Minimize.TextSize = 14.000
+	Minimize.TextWrapped = true
+	
+	Logo_2.Name = "Logo"
+	Logo_2.Parent = LoadingCoresFrame
+	Logo_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Logo_2.BackgroundTransparency = 1.000
+	Logo_2.Position = UDim2.new(0.00878734607, 0, 0.020066889, 0)
+	Logo_2.Size = UDim2.new(0, 200, 0, 26)
+	Logo_2.Font = Enum.Font.LuckiestGuy
+	Logo_2.LineHeight = 0.770
+	Logo_2.Text = "WEIGHT"
+	Logo_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Logo_2.TextScaled = true
+	Logo_2.TextSize = 14.000
+	Logo_2.TextWrapped = true
+	Logo_2.TextXAlignment = Enum.TextXAlignment.Left
+	
+	Line.Name = "Line"
+	Line.Parent = LoadingCoresFrame
+	Line.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Line.BorderSizePixel = 0
+	Line.Position = UDim2.new(0.00878734607, 0, 0.107023418, 0)
+	Line.Size = UDim2.new(0, 558, 0, 2)
+	Line.Font = Enum.Font.SourceSans
+	Line.Text = ""
+	Line.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Line.TextSize = 14.000
+	
+	LoginFrame.Name = "LoginFrame"
+	LoginFrame.Parent = MainGUI
+	LoginFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	LoginFrame.BackgroundTransparency = 1.000
+	LoginFrame.Size = UDim2.new(0, 569, 0, 299)
+	LoginFrame.Visible = false
+	
+	Logo_3.Name = "Logo"
+	Logo_3.Parent = LoginFrame
+	Logo_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Logo_3.BackgroundTransparency = 1.000
+	Logo_3.Position = UDim2.new(0.00878734607, 0, 0.020066889, 0)
+	Logo_3.Size = UDim2.new(0, 200, 0, 26)
+	Logo_3.Font = Enum.Font.LuckiestGuy
+	Logo_3.LineHeight = 0.770
+	Logo_3.Text = "WEIGHT"
+	Logo_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Logo_3.TextScaled = true
+	Logo_3.TextSize = 14.000
+	Logo_3.TextWrapped = true
+	Logo_3.TextXAlignment = Enum.TextXAlignment.Left
+	
+	SaveKeyNote.Name = "SaveKeyNote"
+	SaveKeyNote.Parent = LoginFrame
+	SaveKeyNote.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	SaveKeyNote.BackgroundTransparency = 1.000
+	SaveKeyNote.Position = UDim2.new(0.279437602, 0, 0.515050173, 0)
+	SaveKeyNote.Size = UDim2.new(0, 282, 0, 15)
+	SaveKeyNote.Font = Enum.Font.Cartoon
+	SaveKeyNote.Text = "Remember Key?"
+	SaveKeyNote.TextColor3 = Color3.fromRGB(205, 205, 205)
+	SaveKeyNote.TextScaled = true
+	SaveKeyNote.TextSize = 14.000
+	SaveKeyNote.TextWrapped = true
+	SaveKeyNote.TextXAlignment = Enum.TextXAlignment.Left
+	
+	Version_2.Name = "Version"
+	Version_2.Parent = LoginFrame
+	Version_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Version_2.BackgroundTransparency = 1.000
+	Version_2.Position = UDim2.new(0.388400704, 0, 0.949832797, 0)
+	Version_2.Size = UDim2.new(0, 337, 0, 15)
+	Version_2.Font = Enum.Font.Cartoon
+	Version_2.Text = "BETA-BUILD V3"
+	Version_2.TextColor3 = Color3.fromRGB(205, 205, 205)
+	Version_2.TextScaled = true
+	Version_2.TextSize = 14.000
+	Version_2.TextWrapped = true
+	Version_2.TextXAlignment = Enum.TextXAlignment.Right
+	
+	Line_2.Name = "Line"
+	Line_2.Parent = LoginFrame
+	Line_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Line_2.BorderSizePixel = 0
+	Line_2.Position = UDim2.new(0.00878734607, 0, 0.107023418, 0)
+	Line_2.Size = UDim2.new(0, 558, 0, 2)
+	Line_2.Font = Enum.Font.SourceSans
+	Line_2.Text = ""
+	Line_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Line_2.TextSize = 14.000
+	
+	Close_2.Name = "Close"
+	Close_2.Parent = LoginFrame
+	Close_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Close_2.BackgroundTransparency = 1.000
+	Close_2.Position = UDim2.new(0.944000006, 0, 0.0199999996, 0)
+	Close_2.Size = UDim2.new(0, 26, 0, 26)
+	Close_2.Font = Enum.Font.Cartoon
+	Close_2.Text = "X"
+	Close_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Close_2.TextScaled = true
+	Close_2.TextSize = 14.000
+	Close_2.TextWrapped = true
+	
+	Minimize_2.Name = "Minimize"
+	Minimize_2.Parent = LoginFrame
+	Minimize_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Minimize_2.BackgroundTransparency = 1.000
+	Minimize_2.Position = UDim2.new(0.879999995, 0, 0.0199999996, 0)
+	Minimize_2.Size = UDim2.new(0, 36, 0, 19)
+	Minimize_2.Font = Enum.Font.Cartoon
+	Minimize_2.Text = "_"
+	Minimize_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Minimize_2.TextScaled = true
+	Minimize_2.TextSize = 14.000
+	Minimize_2.TextWrapped = true
+	
+	Key.Name = "Key"
+	Key.Parent = LoginFrame
+	Key.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Key.BackgroundTransparency = 1.000
+	Key.Position = UDim2.new(0.223198593, 0, 0.290969878, 0)
+	Key.Size = UDim2.new(0, 314, 0, 50)
+	Key.Font = Enum.Font.Cartoon
+	Key.PlaceholderText = "Key"
+	Key.Text = ""
+	Key.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Key.TextSize = 20.000
+	Key.TextXAlignment = Enum.TextXAlignment.Left
+	
+	TextLabel.Parent = Key
+	TextLabel.BackgroundColor3 = Color3.fromRGB(205, 205, 205)
+	TextLabel.Position = UDim2.new(0, 0, 0.960000038, 0)
+	TextLabel.Size = UDim2.new(0, 314, 0, 2)
+	TextLabel.Font = Enum.Font.SourceSans
+	TextLabel.Text = ""
+	TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TextLabel.TextSize = 14.000
+	
+	SaveKeyButton.Name = "SaveKeyButton"
+	SaveKeyButton.Parent = LoginFrame
+	SaveKeyButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	SaveKeyButton.Position = UDim2.new(0.223198593, 0, 0.501672268, 0)
+	SaveKeyButton.Size = UDim2.new(0, 22, 0, 22)
+	SaveKeyButton.Font = Enum.Font.SourceSans
+	SaveKeyButton.Text = ""
+	SaveKeyButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+	SaveKeyButton.TextSize = 14.000
+	
+	UICorner_2.Parent = SaveKeyButton
+	
+	Login.Name = "Login"
+	Login.Parent = LoginFrame
+	Login.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+	Login.Position = UDim2.new(0.221680164, 0, 0.622006655, 0)
+	Login.Size = UDim2.new(0, 314, 0, 26)
+	Login.Font = Enum.Font.Cartoon
+	Login.Text = "Login"
+	Login.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Login.TextScaled = true
+	Login.TextSize = 14.000
+	Login.TextWrapped = true
+	
+	UICorner_3.Parent = Login
+	
+	LoadingModulesFrame.Name = "LoadingModulesFrame"
+	LoadingModulesFrame.Parent = MainGUI
+	LoadingModulesFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	LoadingModulesFrame.BackgroundTransparency = 1.000
+	LoadingModulesFrame.Size = UDim2.new(0, 569, 0, 299)
+	LoadingModulesFrame.Visible = false
+	
+	BigLogo.Name = "BigLogo"
+	BigLogo.Parent = LoadingModulesFrame
+	BigLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	BigLogo.BackgroundTransparency = 1.000
+	BigLogo.Position = UDim2.new(0.323374331, 0, 0.391304314, 0)
+	BigLogo.Size = UDim2.new(0, 200, 0, 50)
+	BigLogo.Font = Enum.Font.LuckiestGuy
+	BigLogo.LineHeight = 0.770
+	BigLogo.Text = "WEIGHT"
+	BigLogo.TextColor3 = Color3.fromRGB(255, 255, 255)
+	BigLogo.TextScaled = true
+	BigLogo.TextSize = 14.000
+	BigLogo.TextWrapped = true
+	
+	Version_3.Name = "Version"
+	Version_3.Parent = LoadingModulesFrame
+	Version_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Version_3.BackgroundTransparency = 1.000
+	Version_3.Position = UDim2.new(0.388400704, 0, 0.949832797, 0)
+	Version_3.Size = UDim2.new(0, 337, 0, 15)
+	Version_3.Font = Enum.Font.Cartoon
+	Version_3.Text = "BETA-BUILD V3"
+	Version_3.TextColor3 = Color3.fromRGB(205, 205, 205)
+	Version_3.TextScaled = true
+	Version_3.TextSize = 14.000
+	Version_3.TextWrapped = true
+	Version_3.TextXAlignment = Enum.TextXAlignment.Right
+	
+	Line_3.Name = "Line"
+	Line_3.Parent = LoadingModulesFrame
+	Line_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Line_3.BorderSizePixel = 0
+	Line_3.Position = UDim2.new(0.00878734607, 0, 0.107023418, 0)
+	Line_3.Size = UDim2.new(0, 558, 0, 2)
+	Line_3.Font = Enum.Font.SourceSans
+	Line_3.Text = ""
+	Line_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Line_3.TextSize = 14.000
+	
+	Minimize_3.Name = "Minimize"
+	Minimize_3.Parent = LoadingModulesFrame
+	Minimize_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Minimize_3.BackgroundTransparency = 1.000
+	Minimize_3.Position = UDim2.new(0.879999995, 0, 0.0199999996, 0)
+	Minimize_3.Size = UDim2.new(0, 36, 0, 19)
+	Minimize_3.Font = Enum.Font.Cartoon
+	Minimize_3.Text = "_"
+	Minimize_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Minimize_3.TextScaled = true
+	Minimize_3.TextSize = 14.000
+	Minimize_3.TextWrapped = true
+	
+	Close_3.Name = "Close"
+	Close_3.Parent = LoadingModulesFrame
+	Close_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Close_3.BackgroundTransparency = 1.000
+	Close_3.Position = UDim2.new(0.944000006, 0, 0.0199999996, 0)
+	Close_3.Size = UDim2.new(0, 26, 0, 26)
+	Close_3.Font = Enum.Font.Cartoon
+	Close_3.Text = "X"
+	Close_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Close_3.TextScaled = true
+	Close_3.TextSize = 14.000
+	Close_3.TextWrapped = true
+	
+	Logo_4.Name = "Logo"
+	Logo_4.Parent = LoadingModulesFrame
+	Logo_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Logo_4.BackgroundTransparency = 1.000
+	Logo_4.Position = UDim2.new(0.00878734607, 0, 0.020066889, 0)
+	Logo_4.Size = UDim2.new(0, 200, 0, 26)
+	Logo_4.Font = Enum.Font.LuckiestGuy
+	Logo_4.LineHeight = 0.770
+	Logo_4.Text = "WEIGHT"
+	Logo_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Logo_4.TextScaled = true
+	Logo_4.TextSize = 14.000
+	Logo_4.TextWrapped = true
+	Logo_4.TextXAlignment = Enum.TextXAlignment.Left
+	
+	LoadingAnimation.Name = "LoadingAnimation"
+	LoadingAnimation.Parent = LoadingModulesFrame
+	LoadingAnimation.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	LoadingAnimation.BackgroundTransparency = 1.000
+	LoadingAnimation.Position = UDim2.new(0.261862934, 0, 0.558528423, 0)
+	LoadingAnimation.Size = UDim2.new(0, 270, 0, 27)
+	
+	LoadinCircle.Name = "LoadinCircle"
+	LoadinCircle.Parent = LoadingAnimation
+	LoadinCircle.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+	LoadinCircle.BorderSizePixel = 0
+	LoadinCircle.Position = UDim2.new(-9.31322575e-10, 0, 0, 0)
+	LoadinCircle.Size = UDim2.new(0, 27, 0, 27)
+	LoadinCircle.Font = Enum.Font.SourceSans
+	LoadinCircle.Text = ""
+	LoadinCircle.TextColor3 = Color3.fromRGB(0, 0, 0)
+	LoadinCircle.TextSize = 14.000
+	
+	UICorner_4.CornerRadius = UDim.new(0, 100)
+	UICorner_4.Parent = LoadinCircle
+	
+	LoadinCircle_2.Name = "LoadinCircle"
+	LoadinCircle_2.Parent = LoadingAnimation
+	LoadinCircle_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	LoadinCircle_2.BorderSizePixel = 0
+	LoadinCircle_2.Position = UDim2.new(0.103846155, 0, 0, 0)
+	LoadinCircle_2.Size = UDim2.new(0, 27, 0, 27)
+	LoadinCircle_2.Font = Enum.Font.SourceSans
+	LoadinCircle_2.Text = ""
+	LoadinCircle_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+	LoadinCircle_2.TextSize = 14.000
+	
+	UICorner_5.CornerRadius = UDim.new(0, 100)
+	UICorner_5.Parent = LoadinCircle_2
+	
+	LoadinCircle_3.Name = "LoadinCircle"
+	LoadinCircle_3.Parent = LoadingAnimation
+	LoadinCircle_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	LoadinCircle_3.BorderSizePixel = 0
+	LoadinCircle_3.Position = UDim2.new(0.311538458, 0, 0, 0)
+	LoadinCircle_3.Size = UDim2.new(0, 27, 0, 27)
+	LoadinCircle_3.Font = Enum.Font.SourceSans
+	LoadinCircle_3.Text = ""
+	LoadinCircle_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+	LoadinCircle_3.TextSize = 14.000
+	
+	UICorner_6.CornerRadius = UDim.new(0, 100)
+	UICorner_6.Parent = LoadinCircle_3
+	
+	LoadinCircle_4.Name = "LoadinCircle"
+	LoadinCircle_4.Parent = LoadingAnimation
+	LoadinCircle_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	LoadinCircle_4.BorderSizePixel = 0
+	LoadinCircle_4.Position = UDim2.new(0.20769231, 0, 0, 0)
+	LoadinCircle_4.Size = UDim2.new(0, 27, 0, 27)
+	LoadinCircle_4.Font = Enum.Font.SourceSans
+	LoadinCircle_4.Text = ""
+	LoadinCircle_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+	LoadinCircle_4.TextSize = 14.000
+	
+	UICorner_7.CornerRadius = UDim.new(0, 100)
+	UICorner_7.Parent = LoadinCircle_4
+	
+	LoadinCircle_5.Name = "LoadinCircle"
+	LoadinCircle_5.Parent = LoadingAnimation
+	LoadinCircle_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	LoadinCircle_5.BorderSizePixel = 0
+	LoadinCircle_5.Position = UDim2.new(0.726923108, 0, 0, 0)
+	LoadinCircle_5.Size = UDim2.new(0, 27, 0, 27)
+	LoadinCircle_5.Font = Enum.Font.SourceSans
+	LoadinCircle_5.Text = ""
+	LoadinCircle_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+	LoadinCircle_5.TextSize = 14.000
+	
+	UICorner_8.CornerRadius = UDim.new(0, 100)
+	UICorner_8.Parent = LoadinCircle_5
+	
+	LoadinCircle_6.Name = "LoadinCircle"
+	LoadinCircle_6.Parent = LoadingAnimation
+	LoadinCircle_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	LoadinCircle_6.BorderSizePixel = 0
+	LoadinCircle_6.Position = UDim2.new(0.623076916, 0, 0, 0)
+	LoadinCircle_6.Size = UDim2.new(0, 27, 0, 27)
+	LoadinCircle_6.Font = Enum.Font.SourceSans
+	LoadinCircle_6.Text = ""
+	LoadinCircle_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+	LoadinCircle_6.TextSize = 14.000
+	
+	UICorner_9.CornerRadius = UDim.new(0, 100)
+	UICorner_9.Parent = LoadinCircle_6
+	
+	LoadinCircle_7.Name = "LoadinCircle"
+	LoadinCircle_7.Parent = LoadingAnimation
+	LoadinCircle_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	LoadinCircle_7.BorderSizePixel = 0
+	LoadinCircle_7.Position = UDim2.new(0.519230783, 0, 0, 0)
+	LoadinCircle_7.Size = UDim2.new(0, 27, 0, 27)
+	LoadinCircle_7.Font = Enum.Font.SourceSans
+	LoadinCircle_7.Text = ""
+	LoadinCircle_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+	LoadinCircle_7.TextSize = 14.000
+	
+	UICorner_10.CornerRadius = UDim.new(0, 100)
+	UICorner_10.Parent = LoadinCircle_7
+	
+	LoadinCircle_8.Name = "LoadinCircle"
+	LoadinCircle_8.Parent = LoadingAnimation
+	LoadinCircle_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	LoadinCircle_8.BorderSizePixel = 0
+	LoadinCircle_8.Position = UDim2.new(0.41538462, 0, 0, 0)
+	LoadinCircle_8.Size = UDim2.new(0, 27, 0, 27)
+	LoadinCircle_8.Font = Enum.Font.SourceSans
+	LoadinCircle_8.Text = ""
+	LoadinCircle_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+	LoadinCircle_8.TextSize = 14.000
+	
+	UICorner_11.CornerRadius = UDim.new(0, 100)
+	UICorner_11.Parent = LoadinCircle_8
+	
+	LoadinCircle_9.Name = "LoadinCircle"
+	LoadinCircle_9.Parent = LoadingAnimation
+	LoadinCircle_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	LoadinCircle_9.BorderSizePixel = 0
+	LoadinCircle_9.Position = UDim2.new(0.830769241, 0, 0, 0)
+	LoadinCircle_9.Size = UDim2.new(0, 27, 0, 27)
+	LoadinCircle_9.Font = Enum.Font.SourceSans
+	LoadinCircle_9.Text = ""
+	LoadinCircle_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+	LoadinCircle_9.TextSize = 14.000
+	
+	UICorner_12.CornerRadius = UDim.new(0, 100)
+	UICorner_12.Parent = LoadinCircle_9
+	
+	UIListLayout.Parent = LoadingAnimation
+	UIListLayout.FillDirection = Enum.FillDirection.Horizontal
+	UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+	UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+	UIListLayout.Padding = UDim.new(0, 3)
+	
+	MainFrame.Name = "MainFrame"
+	MainFrame.Parent = MainGUI
+	MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	MainFrame.BackgroundTransparency = 1.000
+	MainFrame.Size = UDim2.new(0, 569, 0, 299)
+	MainFrame.Visible = false
+	
+	Version_4.Name = "Version"
+	Version_4.Parent = MainFrame
+	Version_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Version_4.BackgroundTransparency = 1.000
+	Version_4.Position = UDim2.new(0.388400704, 0, 0.949832797, 0)
+	Version_4.Size = UDim2.new(0, 337, 0, 15)
+	Version_4.Font = Enum.Font.Cartoon
+	Version_4.Text = "BETA-BUILD V3"
+	Version_4.TextColor3 = Color3.fromRGB(205, 205, 205)
+	Version_4.TextScaled = true
+	Version_4.TextSize = 14.000
+	Version_4.TextWrapped = true
+	Version_4.TextXAlignment = Enum.TextXAlignment.Right
+	
+	Close_4.Name = "Close"
+	Close_4.Parent = MainFrame
+	Close_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Close_4.BackgroundTransparency = 1.000
+	Close_4.Position = UDim2.new(0.944000006, 0, 0.0199999996, 0)
+	Close_4.Size = UDim2.new(0, 26, 0, 26)
+	Close_4.Font = Enum.Font.Cartoon
+	Close_4.Text = "X"
+	Close_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Close_4.TextScaled = true
+	Close_4.TextSize = 14.000
+	Close_4.TextWrapped = true
+	
+	Minimize_4.Name = "Minimize"
+	Minimize_4.Parent = MainFrame
+	Minimize_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Minimize_4.BackgroundTransparency = 1.000
+	Minimize_4.Position = UDim2.new(0.879999995, 0, 0.0199999996, 0)
+	Minimize_4.Size = UDim2.new(0, 36, 0, 19)
+	Minimize_4.Font = Enum.Font.Cartoon
+	Minimize_4.Text = "_"
+	Minimize_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Minimize_4.TextScaled = true
+	Minimize_4.TextSize = 14.000
+	Minimize_4.TextWrapped = true
+	
+	Logo_5.Name = "Logo"
+	Logo_5.Parent = MainFrame
+	Logo_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Logo_5.BackgroundTransparency = 1.000
+	Logo_5.Position = UDim2.new(0.00878734607, 0, 0.020066889, 0)
+	Logo_5.Size = UDim2.new(0, 200, 0, 26)
+	Logo_5.Font = Enum.Font.LuckiestGuy
+	Logo_5.LineHeight = 0.770
+	Logo_5.Text = "WEIGHT"
+	Logo_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Logo_5.TextScaled = true
+	Logo_5.TextSize = 14.000
+	Logo_5.TextWrapped = true
+	Logo_5.TextXAlignment = Enum.TextXAlignment.Left
+	
+	Line_4.Name = "Line"
+	Line_4.Parent = MainFrame
+	Line_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Line_4.BorderSizePixel = 0
+	Line_4.Position = UDim2.new(0.00878734607, 0, 0.107023418, 0)
+	Line_4.Size = UDim2.new(0, 558, 0, 2)
+	Line_4.Font = Enum.Font.SourceSans
+	Line_4.Text = ""
+	Line_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Line_4.TextSize = 14.000
+	
+	Main.Name = "Main"
+	Main.Parent = MainFrame
+	Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Main.BackgroundTransparency = 1.000
+	Main.Position = UDim2.new(0, 0, 0.250836134, 0)
+	Main.Size = UDim2.new(0, 569, 0, 224)
+	
+	Tabs.Name = "Tabs"
+	Tabs.Parent = Main
+	Tabs.Active = true
+	Tabs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Tabs.BackgroundTransparency = 1.000
+	Tabs.BorderColor3 = Color3.fromRGB(27, 42, 53)
+	Tabs.BorderSizePixel = 0
+	Tabs.Position = UDim2.new(0, 0, -0.00362816453, 0)
+	Tabs.Size = UDim2.new(0, 152, 0, 224)
+	Tabs.CanvasSize = UDim2.new(0, 0, 0, 0)
+	Tabs.ScrollBarThickness = 6
+	Tabs.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Left
+	
+	UIListLayout_2.Parent = Tabs
+	UIListLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
+	UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+	
+	Modules.Name = "Modules"
+	Modules.Parent = Main
+	Modules.Active = true
+	Modules.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Modules.BackgroundTransparency = 1.000
+	Modules.BorderColor3 = Color3.fromRGB(27, 42, 53)
+	Modules.BorderSizePixel = 0
+	Modules.Position = UDim2.new(0.270650268, 0, -0.00362818572, 0)
+	Modules.Size = UDim2.new(0, 415, 0, 224)
+	Modules.CanvasSize = UDim2.new(0, 0, 0, 0)
+	Modules.ScrollBarThickness = 6
+	Modules.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Left
+	Modules.Visible = false
+	
+	UIListLayout_3.Parent = Modules
+	UIListLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Center
+	UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+	
+	return {
+		new = function(name)
+			local TabTemplate = Instance.new("TextButton")
+			
+			TabTemplate.Name = "TabTemplate"
+			TabTemplate.Parent = Tabs -- Weight.Tabs
+			TabTemplate.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			TabTemplate.BackgroundTransparency = 1.000
+			TabTemplate.Position = UDim2.new(0.0592105277, 0, 0, 0)
+			TabTemplate.Size = UDim2.new(0, 134, 0, 26)
+			TabTemplate.Visible = false
+			TabTemplate.Font = Enum.Font.Cartoon
+			TabTemplate.Text = "TabTemplate#1"
+			TabTemplate.TextColor3 = Color3.fromRGB(255, 255, 255)
+			TabTemplate.TextSize = 18.000
+			TabTemplate.Name = name
+			
+			local newTab = Modules:Clone()
+			newTab.Name = name
+			newTab.Visible = true
+			
+			TabTemplate.MouseButton1Click:Connect(function()
+				newTab.Visible = not newTab.Visible
+			end)
+			
+			return {
+				new = function(Type, packet)
+					if Type == "TextButton" then
+						local ButtonTemplate = Instance.new("TextButton")
+						local UICorner_13 = Instance.new("UICorner")
+						local TextDisplay = Instance.new("TextLabel")
+						local Status = Instance.new("ImageLabel")
+						local Attention = Instance.new("ImageLabel")
+						
+						ButtonTemplate.Name = packet.Text
+						ButtonTemplate.Parent = newTab
+						ButtonTemplate.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+						ButtonTemplate.Position = UDim2.new(1.11247802, 0, 0.375, 0)
+						ButtonTemplate.Size = UDim2.new(0, 318, 0, 49)
+						ButtonTemplate.Visible = false
+						ButtonTemplate.Font = Enum.Font.SourceSans
+						ButtonTemplate.Text = packet.Text
+						ButtonTemplate.TextColor3 = Color3.fromRGB(0, 0, 0)
+						ButtonTemplate.TextSize = 14.000
+						
+						UICorner_13.Parent = ButtonTemplate
+						
+						TextDisplay.Name = "TextDisplay"
+						TextDisplay.Parent = ButtonTemplate
+						TextDisplay.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+						TextDisplay.BackgroundTransparency = 1.000
+						TextDisplay.Position = UDim2.new(0.040880505, 0, 0.142857149, 0)
+						TextDisplay.Size = UDim2.new(0, 262, 0, 34)
+						TextDisplay.Font = Enum.Font.Cartoon
+						TextDisplay.TextColor3 = Color3.fromRGB(255, 255, 255)
+						TextDisplay.TextSize = 20.000
+						TextDisplay.TextWrapped = true
+						TextDisplay.TextXAlignment = Enum.TextXAlignment.Left
+						
+						Status.Name = "Status"
+						Status.Parent = ButtonTemplate
+						Status.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+						Status.BackgroundTransparency = 1.000
+						Status.Position = UDim2.new(0.86477989, 0, 0.142857149, 0)
+						Status.Size = UDim2.new(0, 34, 0, 34)
+						Status.Image = "rbxassetid://7072707153"
+						
+						Attention.Name = "Attention"
+						Attention.Parent = ButtonTemplate
+						Attention.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+						Attention.BackgroundTransparency = 1.000
+						Attention.Position = UDim2.new(0.735849082, 0, 0.142857149, 0)
+						Attention.Size = UDim2.new(0, 34, 0, 34)
+						Attention.Image = "rbxassetid://7072980286"
+						Attention.ImageColor3 = Color3.fromRGB(255, 170, 0)
+						if packet.Attention then
+							Attention.Visible = true
+						else
+							Attention.Visible = false
+						end
+						
+						ButtonTemplate.MouseButton1Click:Connect(function()
+							packet.Callback()
+						end)
+					elseif Type == "Label" then
+						local LabelTemplate = Instance.new("TextLabel")
+						local TextDisplay_2 = Instance.new("TextLabel")
+						local Attention_2 = Instance.new("ImageLabel")
+						local UICorner_14 = Instance.new("UICorner")
+						
+						LabelTemplate.Name = name
+						LabelTemplate.Parent = newTab
+						LabelTemplate.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+						LabelTemplate.Position = UDim2.new(1.11247802, 0, 0.892857194, 0)
+						LabelTemplate.Size = UDim2.new(0, 318, 0, 49)
+						LabelTemplate.Visible = false
+						LabelTemplate.Font = Enum.Font.SourceSans
+						LabelTemplate.Text = ""
+						LabelTemplate.TextColor3 = Color3.fromRGB(0, 0, 0)
+						LabelTemplate.TextSize = 14.000
+						
+						TextDisplay_2.Name = packet.Text
+						TextDisplay_2.Parent = LabelTemplate
+						TextDisplay_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+						TextDisplay_2.BackgroundTransparency = 1.000
+						TextDisplay_2.Position = UDim2.new(0.040880505, 0, 0.142857149, 0)
+						TextDisplay_2.Size = UDim2.new(0, 262, 0, 34)
+						TextDisplay_2.Font = Enum.Font.Cartoon
+						TextDisplay_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+						TextDisplay_2.TextSize = 20.000
+						TextDisplay_2.TextWrapped = true
+						TextDisplay_2.TextXAlignment = Enum.TextXAlignment.Left
+						
+						Attention_2.Name = "Attention"
+						Attention_2.Parent = LabelTemplate
+						Attention_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+						Attention_2.BackgroundTransparency = 1.000
+						Attention_2.Position = UDim2.new(0.86477989, 0, 0.142857149, 0)
+						Attention_2.Size = UDim2.new(0, 34, 0, 34)
+						Attention_2.Image = "rbxassetid://7072980286"
+						Attention_2.ImageColor3 = Color3.fromRGB(255, 170, 0)
+						
+						UICorner_14.Parent = LabelTemplate
+					elseif Type == "TextBox" then
+						local TextBoxTemplate = Instance.new("TextLabel")
+						local TextDisplay_3 = Instance.new("TextLabel")
+						local Attention_3 = Instance.new("ImageLabel")
+						local UICorner_15 = Instance.new("UICorner")
+						local Input = Instance.new("TextBox")
+						local UICorner_16 = Instance.new("UICorner")
+						
+						TextBoxTemplate.Name = name
+						TextBoxTemplate.Parent = newTab
+						TextBoxTemplate.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+						TextBoxTemplate.Position = UDim2.new(1.11247802, 0, 0.633928657, 0)
+						TextBoxTemplate.Size = UDim2.new(0, 318, 0, 49)
+						TextBoxTemplate.Visible = false
+						TextBoxTemplate.Font = Enum.Font.SourceSans
+						TextBoxTemplate.Text = ""
+						TextBoxTemplate.TextColor3 = Color3.fromRGB(0, 0, 0)
+						TextBoxTemplate.TextSize = 14.000
+						
+						TextDisplay_3.Name = name
+						TextDisplay_3.Parent = TextBoxTemplate
+						TextDisplay_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+						TextDisplay_3.BackgroundTransparency = 1.000
+						TextDisplay_3.Position = UDim2.new(0.0503145456, 0, 0, 0)
+						TextDisplay_3.Size = UDim2.new(0, 262, 0, 12)
+						TextDisplay_3.Font = Enum.Font.Cartoon
+						TextDisplay_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+						TextDisplay_3.TextScaled = true
+						TextDisplay_3.TextSize = 20.000
+						TextDisplay_3.TextWrapped = true
+						TextDisplay_3.TextXAlignment = Enum.TextXAlignment.Left
+						
+						Attention_3.Name = "Attention"
+						Attention_3.Parent = TextBoxTemplate
+						Attention_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+						Attention_3.BackgroundTransparency = 1.000
+						Attention_3.Position = UDim2.new(0.86477989, 0, 0.142857149, 0)
+						Attention_3.Size = UDim2.new(0, 34, 0, 34)
+						Attention_3.Image = "rbxassetid://7072980286"
+						Attention_3.ImageColor3 = Color3.fromRGB(255, 170, 0)
+						
+						UICorner_15.Parent = TextBoxTemplate
+						
+						Input.Name = "Input"
+						Input.Parent = TextBoxTemplate
+						Input.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+						Input.Position = UDim2.new(0.0503144637, 0, 0.20408164, 0)
+						Input.Size = UDim2.new(0, 255, 0, 29)
+						Input.Font = Enum.Font.Cartoon
+						Input.Text = ""
+						Input.TextColor3 = Color3.fromRGB(255, 255, 255)
+						Input.TextSize = 14.000
+						
+						Input.Changed:Connect(function(...)
+							print(...)
+						end)
+						
+						UICorner_16.Parent = Input
+					end
+				end,
+			}
+		end,
+	}
+end
+
+return weight
