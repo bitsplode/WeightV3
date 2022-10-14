@@ -671,6 +671,9 @@ function weight.new()
 	UIListLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Center
 	UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
 	
+	MainGUI.Active = true
+	MainGUI.Draggable = true
+	
 	_G.WeightLoading = true
 	
 	local loginSetup
@@ -740,6 +743,8 @@ function weight.new()
 			end
 		end)
 	end
+	
+	_G.WeightLoading = true
 	
 	return {
 		new = function(name)
